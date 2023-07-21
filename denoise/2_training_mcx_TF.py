@@ -5,7 +5,7 @@
 from __future__ import print_function, unicode_literals, absolute_import, division
 import sys
 from csbdeep.utils import normalize
-from csbdeep.func_mcx import *
+from func import *
 import os
 import random
 from csbdeep.io import load_training_data
