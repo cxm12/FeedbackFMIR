@@ -9,21 +9,33 @@ We used Ubuntu 9.4.0 (GNU/Linux 5.15.0-76-generic x86_64)) and an NVIDIA Corpora
 
 ## Installation
 * Python 3.7
-* Packages: 
+* Packages:
+  
   basicsr          ==          1.4.2
-  easydict         ==          1.11.dev0
-  imageio          ==          2.13.3
-  keras            ==          2.11.0
-  numpy            ==          1.21.5
-  opencv-python    ==          4.5.4.60
-  Pillow           ==          9.0.1
-  scikit-image     ==          0.19.2
-  scipy            ==          1.7.3
-  tensorflow-gpu   ==          2.7.0
-  tifffile         ==          2021.11.2
-  torch            ==          1.10.0+cu113
 
-[![PyPI version](https://badge.fury.io/py/csbdeep.svg)](https://pypi.org/project/csbdeep)
+  easydict         ==          1.11.dev0
+
+  imageio          ==          2.13.3
+
+  keras            ==          2.11.0
+
+  numpy            ==          1.21.5
+
+  opencv-python    ==          4.5.4.60
+
+  Pillow           ==          9.0.1
+
+  scikit-image     ==          0.19.2
+
+  scipy            ==          1.7.3
+
+  tensorflow-gpu   ==          2.7.0
+
+  tifffile         ==          2021.11.2
+
+  torch            ==          1.10.0+cu113
+  
+  csbdeep [![PyPI version](https://badge.fury.io/py/csbdeep.svg)](https://pypi.org/project/csbdeep)
 
 
 #### Training the model
