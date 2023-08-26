@@ -82,3 +82,6 @@ Replacing "modelpath" with the path of the model trained in the second stage.
 
 ### Data
 All training and test data involved in the experiments are publicly available datasets and can be downloaded from `https://publications.mpi-cbg.de/publications-sites/7207/`
+
+### Model
+The pretrained models can be downloaded from `https://pan.baidu.com/s/1IqedS62A02THpRdvgyJEMg?pwd=rvcf`
