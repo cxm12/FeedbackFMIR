@@ -46,9 +46,9 @@ We used Ubuntu 9.4.0 (GNU/Linux 5.15.0-76-generic x86_64)) and an NVIDIA Corpora
 
 ```
 cd ./denoise/
-python training_mcx_TF.py
+python training_TF.py
 ```
-* Modify `training_mcx_TF.py` 
+* Modify `training_TF.py` 
   istrain=True
   modeltypelst = ['FBuncertainty_f_uncer']
 Replacing "traindatapath" with the path of the training data `data_label.npz`.
@@ -57,9 +57,9 @@ Replacing "traindatapath" with the path of the training data `data_label.npz`.
 
 ```
 cd ./denoise/
-python training_mcx_TF.py
+python training_TF.py
 ```
-* Modify `training_mcx_TF.py` 
+* Modify `training_TF.py` 
   modeltypelst = ['FBuncertainty_f_twostage']
 Replacing "modelpath1" with the path of the model trained in the first stage. 
 
@@ -70,9 +70,9 @@ Replacing "modelpath1" with the path of the model trained in the first stage.
 
 ```
 cd ./denoise/
-python training_mcx_TF.py
+python training_TF.py
 ```
-* Modify `training_mcx_TF.py` 
+* Modify `training_TF.py` 
   istrain=False
   modeltypelst = ['FBuncertainty_f_twostage']
 Replacing "testGTpath" with the path of the grount-truth images in the testing data.
