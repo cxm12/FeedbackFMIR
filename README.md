@@ -1,4 +1,4 @@
-## "Distribution-informed Learning for Fluorescence Microscopy Restoration"
+## "Distribution-informed Learning Enables High-quality and High-robustness Restoration of Fluorescence Microscopy"
 
 ## System Requirements
 
