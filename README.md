@@ -92,7 +92,7 @@ The pretrained models can be downloaded from `https://pan.baidu.com/s/1IqedS62A0
 
 You can use our online demo in [feedbackfmir.fdudml.cn](feedbackfmir.fdudml.cn)
 
-![example](D:\Term\workspace\FeedbackFMIR\picture\example.png)
+![example](./picture/example.png)
 
 #### Run locally
 
