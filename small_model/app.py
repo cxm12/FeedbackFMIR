@@ -82,9 +82,9 @@ with gr.Blocks() as demo:
     "This demo allows you to run the models on your own images or the examples  from the paper. Please refer to the paper for more details.")
 
     gr.Markdown("## Instructions")
-    gr.Markdown("1. Upload your tiff image or use the examples below. We accept 2 (xy) dimensional images for SR and 3 (zxy) dimensional images for Denoising and Isotropic.")
+    gr.Markdown("1. Upload your tiff image or use the examples below. This online project accepts 2 (xy) dimensional images for SR and 3 (zxy) dimensional images for Denoising and Isotropic.")
     gr.Markdown("2. Click 'Check Input' to inspect your input image. This may take a while to display the image.")
-    gr.Markdown("3. Select the model you want to run. We provide models for different tasks and datasets, including SR (CCPs), Denoising (Planaria),Isotropic (Liver).")
+    gr.Markdown("3. Select the model you want to run. This online project provides models for different tasks and datasets, including SR (CCPs), Denoising (Planaria),Isotropic (Liver).")
     gr.Markdown("4. Click 'Restore Image' to run the model on the input image. Some tasks like denoising will take several minutes to run.")
     gr.Markdown("5. The output image will be saved as 'output.tif' for download.")
 
