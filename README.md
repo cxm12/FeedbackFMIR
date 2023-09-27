@@ -51,7 +51,7 @@ python training_TF.py
 * Modify `training_TF.py` 
   istrain=True
   modeltypelst = ['FBuncertainty_f_uncer']
-Replacing "traindatapath" with the path of the training data `data_label.npz`.
+  Replacing "traindatapath" with the path of the training data `data_label.npz`.
 
 - The second stage of training the model for denoising
 
@@ -61,7 +61,7 @@ python training_TF.py
 ```
 * Modify `training_TF.py` 
   modeltypelst = ['FBuncertainty_f_twostage']
-Replacing "modelpath1" with the path of the model trained in the first stage. 
+  Replacing "modelpath1" with the path of the model trained in the first stage. 
 
 
 #### Prediction
@@ -75,9 +75,9 @@ python training_TF.py
 * Modify `training_TF.py` 
   istrain=False
   modeltypelst = ['FBuncertainty_f_twostage']
-Replacing "testGTpath" with the path of the grount-truth images in the testing data.
-Replacing "modelpath1" with the path of the model trained in the first stage. 
-Replacing "modelpath" with the path of the model trained in the second stage.
+  Replacing "testGTpath" with the path of the grount-truth images in the testing data.
+  Replacing "modelpath1" with the path of the model trained in the first stage. 
+  Replacing "modelpath" with the path of the model trained in the second stage.
 
 
 ### Data
@@ -85,3 +85,27 @@ All training and test data involved in the experiments are publicly available da
 
 ### Model
 The pretrained models can be downloaded from `https://pan.baidu.com/s/1IqedS62A02THpRdvgyJEMg?pwd=rvcf`
+
+### Demo
+
+#### Use our online demo(Recommended)
+
+You can use our online demo in [feedbackfmir.fdudml.cn](feedbackfmir.fdudml.cn)
+
+![example](D:\Term\workspace\FeedbackFMIR\picture\example.png)
+
+#### Run locally
+
+To use our demo in your local environment, you need：
+
+- python 3.8
+- gradio == 3.40.1
+
+Load exampledata(optional) and model weight in ./exampledata and ./experiment respectively. You need to modify the corresponding code in app.py and model/fmirmodel.py to ensure that the program runs normally.
+
+Finally, you can use the gradio demo by running：
+
+```python
+python app.py
+```
+
